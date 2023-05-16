@@ -3,8 +3,8 @@ package ru.netology.Packages.servises;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class CountMonthServiceTest {
 
+public class CountMonthServiceTest {
     @Test
     void publicCalculateHolidays() {
 
@@ -17,9 +17,6 @@ public class CountMonthServiceTest {
         int actual = service.calculate(income, expenses, threshold);
         int expected = 3;
 
-
         Assertions.assertEquals(expected, actual);
     }
-
-
 }
