@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class CountMonthServiceTest {
 
     @Test
-    void calculateHolidays() {
+    void publicCalculateHolidays() {
 
         CountMonthService service = new CountMonthService();
 
